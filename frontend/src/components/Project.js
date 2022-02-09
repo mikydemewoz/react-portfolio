@@ -13,13 +13,11 @@ const Project = () => {
             <article className='flex flex-wrap md:justify-between md:items-center' key={index}>
               <picture className={index % 2 === 0 ? 'w-full md:w-6/12 shadow-lg ' : 'w-full md:w-6/12 shadow-lg md:order-1'}>
                 <source
-                  srcSet={`${project.image}-1280.webp 1920w,
-                        ${project.image}-768.webp 768w,
-                        ${project.image}-320.webp 320w`}
+                  srcSet={`${project.image} 1920w`}
                   sizes='(min-width: 768px) 50vw, 100vw'
                   type='image/webp'
                 />
-                <source srcSet={`${project.image}-768.jpg 768w,`} sizes='(min-width: 768px) 50vw, 100vw' type='image/jpg' />
+                <source srcSet={`${project.image} 768w,`} sizes='(min-width: 768px) 50vw, 100vw' type='image/jpg' />
 
                 <img width='768px' height='575px' loading='lazy' alt={project.title} className='rounded-lg' />
               </picture>
@@ -47,7 +45,7 @@ const Project = () => {
         </div>
       </section>
       <div className='mx-5'>
-        <a href='https://github.com/Deelip7' target='_blank' rel='noreferrer' className='bg-gray block shadow-lg uppercase border border-gray-500 rounded-lg text-center my-12 p-2 max-w-xs m-auto'>
+        <a href='https://github.com/mikydemewoz' target='_blank' rel='noreferrer' className='bg-gray block shadow-lg uppercase border border-gray-500 rounded-lg text-center my-12 p-2 max-w-xs m-auto'>
           <span>See more on Github</span>
         </a>
       </div>

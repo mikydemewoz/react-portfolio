@@ -31,6 +31,30 @@ const Skill = () => {
           <img src='./images/icons/css3-original.svg' alt='' loading='lazy' className='w-16 mb-1' width='64px' height='64px' />
           CSS 3
         </div>
+        <div className='flex flex-col items-center' tabIndex='0' role='img' aria-label='CSS 3'>
+          <img src='./images/icons/flutter2.svg' alt='' loading='lazy' className='w-16 mb-1' width='64px' height='64px' />
+          Flutter
+        </div>
+        <div className='flex flex-col items-center' tabIndex='0' role='img' aria-label='CSS 3'>
+          <img src='./images/icons/laravel.svg' alt='' loading='lazy' className='w-16 mb-1' width='64px' height='64px' />
+          Laravel
+        </div>
+        <div className='flex flex-col items-center' tabIndex='0' role='img' aria-label='CSS 3'>
+          <img src='./images/icons/python.svg' alt='' loading='lazy' className='w-16 mb-1' width='64px' height='64px' />
+          Python
+        </div>
+        <div className='flex flex-col items-center' tabIndex='0' role='img' aria-label='CSS 3'>
+          <img src='./images/icons/mysql.svg' alt='' loading='lazy' className='w-16 mb-1' width='64px' height='64px' />
+          MySQL
+        </div>
+        <div className='flex flex-col items-center' tabIndex='0' role='img' aria-label='CSS 3'>
+          <img src='./images/icons/postgresql.svg' alt='' loading='lazy' className='w-16 mb-1' width='64px' height='64px' />
+          PostgreSQL
+        </div>
+        <div className='flex flex-col items-center' tabIndex='0' role='img' aria-label='CSS 3'>
+          <img src='./images/icons/php.svg' alt='' loading='lazy' className='w-16 mb-1' width='64px' height='64px' />
+          PHP
+        </div>
       </div>
     </section>
   );
